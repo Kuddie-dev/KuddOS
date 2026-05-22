@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KuddOS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="lockscreen">
+    <h1>KuddOS</h1>
+    <button onclick="unlockOS()">Enter OS</button>
+  </div>
+
+  <div id="desktop" class="hidden">
+    <header>
+      <h1>KuddOS</h1>
+      <div class="wallpaper-controls">
+        <input type="file" id="wallpaperInput" accept="image/*">
+      </div>
+    </header>
+
+    <div id="apps"></div>
+
+    <button id="addAppBtn">＋ Add App</button>
+
+    <div id="appModal" class="modal hidden">
+      <div class="modal-content">
+        <h2>Add App</h2>
+        <input id="appName" placeholder="App Name">
+        <input id="appIcon" placeholder="Emoji Icon (📱)">
+        <input id="appURL" placeholder="https://example.com">
+        <button onclick="saveApp()">Save App</button>
+        <button onclick="closeModal()">Close</button>
+      </div>
+    </div>
+
+    <div id="windowContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
