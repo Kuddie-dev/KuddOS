@@ -1,18 +1,16 @@
-
 # KuddOS
 
-Simple personal web OS.
+Frutiger Aero inspired personal Web OS.
 
 Features:
 - Notes app
-- Music uploader/player
-- Upload custom website apps
-- Wallpaper upload
-- Saves data with LocalStorage
-- Emoji icons
-- Runs fully in browser
+- Folder system
+- Music/video uploader
+- Music keeps playing while windows are closed
+- App uploader
+- Website apps inside iframe
+- Wallpaper customization
+- LocalStorage save system
 
 Deploy:
-1. Upload to GitHub
-2. Connect to Vercel
-3. Use domain: kudd-os.vercel.app
+- Upload to Vercel / Netlify / GitHub Pages
